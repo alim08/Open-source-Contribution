@@ -34,6 +34,12 @@ class CircularProgressWidget extends BaseWidget<
     };
   }
 
+  static DepMsg() {
+    return {
+      renderWidgetCallouts(_CircularProgressComponentProps: any){}
+    }
+  }
+  
   static getDefaults() {
     return {
       counterClockWise: false,
